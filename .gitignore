@@ -1,0 +1,5 @@
+*.DS_Store
+*.py[c]
+/.idea/
+/.ipynb_checkpoints/
+buildbot requests.ipynb
