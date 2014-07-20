@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Goto starting url",
+        "url": "https://www.yourkfc.co.uk"
+    },
+
+    {
+        "name": "Landing page, just click continue.",
+        "actions": [
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Enter information from receipt",
+        "actions": [
+            {"type": "fill_form", "css_selector": "#InputStoreNum", "property": "store_number"},
+            {"type": "fill_form", "css_selector": "#InputOrderNum", "property": "order_number"},
+            {"type": "select_drop_down", "css_selector": "#InputYear", "property": "order_year"},
+            {"type": "select_drop_down", "css_selector": "#InputMonth", "property": "order_month"},
+            {"type": "select_drop_down", "css_selector": "#InputDay", "property": "order_day"},
+            {"type": "select_drop_down", "css_selector": "#InputHour", "property": "order_hour"},
+            {"type": "select_drop_down", "css_selector": "#InputMinute", "property": "order_minute"},
+            {"type": "select_drop_down", "css_selector": "#InputMeridian", "property": "order_meridian"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Please answer the following questions about your visit to the KFC where you received this survey invitation.",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR001000 .Opt2 span"},
+            {"type": "click", "css_selector": "#FNSR002000 .Opt2 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Please rate your overall experience at this KFC.",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR003000 .Opt3 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Thinking about your meal, please rate how much you agree or disagree with the following:",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR006000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR008000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR007000 .Opt3 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Which menu item had the biggest impact on your Taste of Food rating?",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR009000 .Opt5 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Thinking about the service you received, please rate how much you agree or disagree with the following:",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR011000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR013000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR014000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR012000 .Opt3 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "What area(s) should we focus on to improve the service you received? (Please select all that apply)",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR015110 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "What area(s) should we focus on to improve the speed of your experience? (Please select all that apply)",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR037030 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Thinking about your experience at this KFC, please rate how much you agree or disagree with the following:",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR018000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR017000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR016000 .Opt3 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "What area(s) should we focus on to improve the cleanliness of this KFC? (Please select all that apply)",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR019120 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Thinking about your experience, please rate how much you agree or disagree with the following:",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR020000 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Did a problem occur during your experience?",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR021000 .Opt2 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Based on this visit, what is the likelihood that you will…",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR023000 .Opt3 span"},
+            {"type": "click", "css_selector": "#FNSR024000 .Opt3 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Please tell us why you did not have a Good experience at this KFC restaurant. Be as specific as you would like.",
+        "actions": [
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Was everything you wanted to order available?",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR025000 .Opt1 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "These final questions are for classification purposes only.",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR033000 .Opt9 span"},
+            {"type": "click", "css_selector": "#FNSR034000 .Opt9 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Would you like to receive great offers and information about KFC?",
+        "actions": [
+            {"type": "click", "css_selector": "#FNSR036000 .Opt2 span"},
+            {"type": "click", "css_selector": "#NextButton"}
+        ]
+    },
+    {
+        "name": "Validation code page",
+        "actions": [
+            {"type": "save_validation_code", "css_selector": ".ValCode"}
+        ]
+    }
+]

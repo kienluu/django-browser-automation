@@ -7,13 +7,14 @@ class ReceiptParams(models.Model):
     order_number = models.CharField(max_length=4)
     order_datetime = models.DateTimeField()
 
+    validation_code = models.CharField(max_length=20, null=True, blank=True)
     automate_settings = models.OneToOneField('AutomateSurveySettings', null=True)
 
 
 PRECONFIGURED_SETTINGS_TYPE_TUPLE = (
-    ('all good', 'All good'),
-    ('all medium', 'All medium'),
-    ('all bad', 'All bad'),
+    ('all_good', 'All good'),
+    ('all_medium', 'All medium'),
+    ('all_bad', 'All bad'),
 )
 
 

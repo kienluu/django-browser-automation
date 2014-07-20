@@ -1,3 +1,4 @@
 #!/bin/bash
 # -A appname -Q queuename
-celery -A browser_automation -Q main worker -l info
+# default queue name can be set with CELERY_DEFAULT_QUEUE
+celery -A browser_automation -Q default worker -l info
